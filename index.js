@@ -9,5 +9,5 @@ export default () => {
   const mesh = new THREE.Mesh(geometry, material);
   mesh.position.y = 1;
   app.add(mesh);
-  return app;
+  return mesh;
 };
