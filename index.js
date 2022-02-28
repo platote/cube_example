@@ -9,6 +9,7 @@ export default () => {
   const material = new THREE.MeshBasicMaterial({color: 0xff0000});
   const mesh = new THREE.Mesh(geometry, material);
   mesh.position.set(2,10,5);
+  mesh.scale.x = 2;
   scene.add(mesh);
   app.updateMatrixWorld();
   return mesh;
